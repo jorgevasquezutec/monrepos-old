@@ -1,0 +1,80 @@
+version: '3.7'
+services:
+  # api_gateway:
+  #   hostname: api_gateway
+  #   image: nginx_gateway_image:latest
+  #   build: 
+  #     context: ./nginx/
+  #     dockerfile: Dockerfile
+  #   container_name: api_gateway-sd
+  #   ports:
+  #     - protocol: tcp
+  #       target: 80
+  #       published: 8881
+  #   environment:
+  #     NGINX_PORT: 80
+  #   volumes:
+  #     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #   networks:
+  #     - monrepos
+  #   depends_on:
+  #     - pod1
+  #     - pod2
+  # app:
+  #   hostname: monrepos-app
+  #   container_name: monrepos-app
+  #   ports:
+  #     - 5000:5000
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   image: monrepos-app
+  #   volumes:
+  #     - ./:/app
+  #   networks:
+  #     - monrepos
+  #   env_file:
+  #     - ./.env
+
+  # pod2:
+  #   hostname: pod2
+  #   container_name: pod2
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   image: pod2
+  #   volumes:
+  #     - ./:/app
+  #   networks:
+  #     - monrepos
+  #   env_file:
+  #     - ./.env
+  db:
+    image: mysql:8
+    container_name: monrepos_mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: monrepos
+    tty: true
+    volumes:
+      - db_monrepos:/var/lib/mysql
+      - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - monrepos
+  adminer:
+    image: adminer
+    ports:
+      - 8081:8080
+    networks:
+      - monrepos
+    depends_on:
+      - db
+
+networks:
+  monrepos:
+    driver: bridge
+volumes:
+  db_monrepos:
+    driver: local

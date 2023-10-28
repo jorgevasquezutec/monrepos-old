@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+ipykernel
+pydantic_settings
+sqlalchemy
+pymysql
+dbfread
+streamlit
+requests
+openpyxl
+matplotlib
+altair
