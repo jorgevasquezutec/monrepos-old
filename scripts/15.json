@@ -1,0 +1,309 @@
+{
+    "PEDIDO": "3951",
+    "ORDEN": "3951-01",
+    "CODCLI": "120366",
+    "CLIENTE": "ALPACA INTERNATIONAL INC",
+    "CANTIDAD": 48,
+    "INICIO": "2021-09-29 00:00:00",
+    "ENTREGA": "2021-11-30 00:00:00",
+    "CODART": "15",
+    "ARTICULO": "SACO",
+    "MODELO": "248",
+    "NMODELO": "JACKET DENISSE",
+    "FORRO": "",
+    "CUELLO": "",
+    "ABCERR": "",
+    "COLOR": "0100",
+    "NCOLOR": "",
+    "TALLA": "S",
+    "MEDIDA": "",
+    "NMEDIDA": "",
+    "TIPOLANA": "2/16",
+    "TITULO": "BL",
+    "NTITULO": "100% BABY",
+    "CBARRAS": "15-248-0100-2",
+    "ECBARRAS": "11-222-3333-4",
+    "FECHA": "2021-11-25 00:00:00",
+    "CCACTUAL": "600",
+    "NCCACTUAL": "DISTRIBUCION Y EMBALAJE",
+    "PASO": 546206,
+    "VEZ": 1,
+    "TALLER": "2",
+    "NTALLER": "Artesanal",
+    "PRENDA": "15248",
+    "NPRENDA": "JACKET DENISSE",
+    "CCALIDAD": 0,
+    "CODIGO": "039510100001",
+    "TRASPASOS": [
+        {
+            "TIME": null,
+            "TRAPASO": {
+                "NROTRASP": 542491,
+                "ORDEN": "3951-01",
+                "DCCOSTO": "",
+                "ACCOSTO": "100",
+                "CANT_PR": 48.0,
+                "FECHORA": "2021-10-01 12:23:07",
+                "ESTADO": "",
+                "USUARIO": "LIBARRA",
+                "OBS_TRP": null
+            },
+            "INDEX": 1,
+            "PASO": 542491,
+            "FECHA": "2021-10-01",
+            "VEZ": 1
+        },
+        {
+            "TIME": 1352.999,
+            "TRAPASO": {
+                "NROTRASP": 542494,
+                "ORDEN": "",
+                "DCCOSTO": "100",
+                "ACCOSTO": "210",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-01 12:45:39.999000",
+                "ESTADO": "",
+                "USUARIO": "TEJIDO110",
+                "OBS_TRP": null
+            },
+            "INDEX": 2,
+            "PASO": 542494,
+            "FECHA": "2021-10-01",
+            "VEZ": 1
+        },
+        {
+            "TIME": 961843.0,
+            "TRAPASO": {
+                "NROTRASP": 543097,
+                "ORDEN": "",
+                "DCCOSTO": "210",
+                "ACCOSTO": "112",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-12 15:56:22.999000",
+                "ESTADO": "",
+                "USUARIO": "TEJIDO110",
+                "OBS_TRP": null
+            },
+            "INDEX": 3,
+            "PASO": 543097,
+            "FECHA": "2021-10-12",
+            "VEZ": 1
+        },
+        {
+            "TIME": 11.001,
+            "TRAPASO": {
+                "NROTRASP": 543098,
+                "ORDEN": "",
+                "DCCOSTO": "112",
+                "ACCOSTO": "670",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-12 15:56:34",
+                "ESTADO": "",
+                "USUARIO": "TEJIDO110",
+                "OBS_TRP": null
+            },
+            "INDEX": 4,
+            "PASO": 543098,
+            "FECHA": "2021-10-12",
+            "VEZ": 1
+        },
+        {
+            "TIME": 1961.0,
+            "TRAPASO": {
+                "NROTRASP": 543106,
+                "ORDEN": "",
+                "DCCOSTO": "670",
+                "ACCOSTO": "680",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-12 16:29:15",
+                "ESTADO": "",
+                "USUARIO": "VICTORIA",
+                "OBS_TRP": null
+            },
+            "INDEX": 5,
+            "PASO": 543106,
+            "FECHA": "2021-10-12",
+            "VEZ": 1
+        },
+        {
+            "TIME": 82.999,
+            "TRAPASO": {
+                "NROTRASP": 543109,
+                "ORDEN": "",
+                "DCCOSTO": "680",
+                "ACCOSTO": "118",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-12 16:30:37.999000",
+                "ESTADO": "",
+                "USUARIO": "VICTORIA",
+                "OBS_TRP": null
+            },
+            "INDEX": 6,
+            "PASO": 543109,
+            "FECHA": "2021-10-12",
+            "VEZ": 1
+        },
+        {
+            "TIME": 44.0,
+            "TRAPASO": {
+                "NROTRASP": 543111,
+                "ORDEN": "",
+                "DCCOSTO": "118",
+                "ACCOSTO": "120",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-12 16:31:21.999000",
+                "ESTADO": "",
+                "USUARIO": "VICTORIA",
+                "OBS_TRP": null
+            },
+            "INDEX": 7,
+            "PASO": 543111,
+            "FECHA": "2021-10-12",
+            "VEZ": 1
+        },
+        {
+            "TIME": 1878.0,
+            "TRAPASO": {
+                "NROTRASP": 543117,
+                "ORDEN": "",
+                "DCCOSTO": "120",
+                "ACCOSTO": "610",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-10-12 17:02:39.999000",
+                "ESTADO": "",
+                "USUARIO": "VICTORIA",
+                "OBS_TRP": null
+            },
+            "INDEX": 8,
+            "PASO": 543117,
+            "FECHA": "2021-10-12",
+            "VEZ": 1
+        },
+        {
+            "TIME": 3026348.001,
+            "TRAPASO": {
+                "NROTRASP": 545502,
+                "ORDEN": "",
+                "DCCOSTO": "610",
+                "ACCOSTO": "611",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-16 17:41:48",
+                "ESTADO": "",
+                "USUARIO": "JJPEREZ",
+                "OBS_TRP": null
+            },
+            "INDEX": 9,
+            "PASO": 545502,
+            "FECHA": "2021-11-16",
+            "VEZ": 1
+        },
+        {
+            "TIME": 75982.999,
+            "TRAPASO": {
+                "NROTRASP": 545576,
+                "ORDEN": "",
+                "DCCOSTO": "611",
+                "ACCOSTO": "670",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-17 14:48:10.999000",
+                "ESTADO": "",
+                "USUARIO": "JJPEREZ",
+                "OBS_TRP": null
+            },
+            "INDEX": 10,
+            "PASO": 545576,
+            "FECHA": "2021-11-17",
+            "VEZ": 2
+        },
+        {
+            "TIME": 525377.0,
+            "TRAPASO": {
+                "NROTRASP": 545954,
+                "ORDEN": "",
+                "DCCOSTO": "670",
+                "ACCOSTO": "680",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-23 16:44:27.999000",
+                "ESTADO": "",
+                "USUARIO": "JJPEREZ",
+                "OBS_TRP": null
+            },
+            "INDEX": 11,
+            "PASO": 545954,
+            "FECHA": "2021-11-23",
+            "VEZ": 2
+        },
+        {
+            "TIME": 125.001,
+            "TRAPASO": {
+                "NROTRASP": 545956,
+                "ORDEN": "",
+                "DCCOSTO": "680",
+                "ACCOSTO": "140",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-23 16:46:33",
+                "ESTADO": "",
+                "USUARIO": "JJPEREZ",
+                "OBS_TRP": null
+            },
+            "INDEX": 12,
+            "PASO": 545956,
+            "FECHA": "2021-11-23",
+            "VEZ": 1
+        },
+        {
+            "TIME": 79287.0,
+            "TRAPASO": {
+                "NROTRASP": 546062,
+                "ORDEN": "",
+                "DCCOSTO": "690",
+                "ACCOSTO": "140",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-24 14:48:00",
+                "ESTADO": "",
+                "USUARIO": "JJPEREZ",
+                "OBS_TRP": null
+            },
+            "INDEX": 13,
+            "PASO": 546062,
+            "FECHA": "2021-11-24",
+            "VEZ": 1
+        },
+        {
+            "TIME": 68657.0,
+            "TRAPASO": {
+                "NROTRASP": 546147,
+                "ORDEN": "",
+                "DCCOSTO": "140",
+                "ACCOSTO": "550",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-25 09:52:17",
+                "ESTADO": "",
+                "USUARIO": "JJPEREZ",
+                "OBS_TRP": null
+            },
+            "INDEX": 14,
+            "PASO": 546147,
+            "FECHA": "2021-11-25",
+            "VEZ": 1
+        },
+        {
+            "TIME": 18010.999,
+            "TRAPASO": {
+                "NROTRASP": 546206,
+                "ORDEN": "",
+                "DCCOSTO": "550",
+                "ACCOSTO": "600",
+                "CANT_PR": NaN,
+                "FECHORA": "2021-11-25 14:52:27.999000",
+                "ESTADO": "",
+                "USUARIO": "VICTORIA",
+                "OBS_TRP": null
+            },
+            "INDEX": 15,
+            "PASO": 546206,
+            "FECHA": "2021-11-25",
+            "VEZ": 1
+        }
+    ]
+}

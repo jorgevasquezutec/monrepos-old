@@ -1,0 +1,96 @@
+// define tables
+
+usuarios {
+  id number pk
+  nombres string 
+  appelidos string
+  correo string 
+  clave string
+  role string
+}
+
+clientes {
+  id string pk
+  nombre string 
+}
+
+estados {
+  id int pk
+  nombre string 
+}
+
+pedidos {
+  id string pk
+  ciente_id string
+  cantidad int
+  fecha_inicio datetime
+  fecha_entrega datetime
+  estado_id int
+
+}
+
+ordenes {
+  id string pk
+  pedido_id string
+  cantidad 
+  estado_id int 
+}
+
+prenda_tipos {
+  id string pk
+  nombre string 
+}
+
+modelos {
+  id string pk
+  nombre string 
+}
+
+prendas {
+  id string pk
+  orden_id string
+  prenda_tipo_id string
+  modelo_id string
+  color string
+  talla string
+  estado_id int 
+  tipo_lana string
+  title string
+  ntitle string
+  cbarras string
+  ecbarras string
+  taller string
+  ntaller string
+  export string
+  nombre string
+  codigo string
+  codigoemp string
+}
+
+centro_costos {
+  id string pk
+  nombre string
+}
+
+traspasos {
+  id string pk
+  prenda_id string
+  fecha datetime
+  dcentro_costo_id string
+  acentro_costo_id string 
+  vez int
+  tipo string
+}
+
+// define relationships
+clientes.id  < pedidos.cliente_id
+pedidos.id < ordenes.pedido_id
+ordenes.id   <  prendas.orden_id
+modelos.id < prendas.modelo_id
+estados.id < pedidos.estado_id
+estados.id < ordenes.estado_id
+estados.id < pedidos.estado_id
+prenda_tipos.id < prendas.prenda_tipo_id
+prendas.id < traspasos.prenda_id
+centro_costos.id < traspasos.centro_costo_id
+
